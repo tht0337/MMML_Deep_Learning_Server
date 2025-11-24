@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from python_server.app.router.user_router import router as user_router
 
 app = FastAPI()
+app.include_router(user_router, prefix="/ai")
 
 @app.get("/")
 def home():
