@@ -1,0 +1,118 @@
+# ==================================
+# Python Cache / Bytecode
+# ==================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ==================================
+# Distribution / Packaging
+# ==================================
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+
+# ==================================
+# Virtual Environments
+# ==================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+
+# ==================================
+# Logs / Runtime files
+# ==================================
+*.log
+*.pid
+*.seed
+*.out
+
+
+# ==================================
+# Unit test / Coverage
+# ==================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+
+# ==================================
+# Jupyter Notebook
+# ==================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+
+# ==================================
+# IDE / Editor settings
+# ==================================
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+
+# ==================================
+# OS Files
+# ==================================
+.DS_Store
+Thumbs.db
+
+
+# ==================================
+# MyPy / Type checking
+# ==================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# ==================================
+# Pyre type checking
+# ==================================
+.pyre/
+
+
+# ==================================
+# FastAPI / Uvicorn
+# ==================================
+*.db
+*.sqlite3
+
+
+# ==================================
+# Local dotenv / secrets
+# ==================================
+.env
+*.env
+.env.*
+secrets.json
+
+
+# ==================================
+# Other temporary or generated files
+# ==================================
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
