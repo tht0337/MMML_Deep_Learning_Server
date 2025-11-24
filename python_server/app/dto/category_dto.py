@@ -1,7 +1,12 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from typing import List
 
 class CategoryUpdateReq(BaseModel):
-    merchant: str
-    price: int
+    placeOfUse: str
+    entryAmount: int
     memo: str
     category: str
+    occurredAt: str
+
+class TransActionBulkReq(BaseModel):
+    transActions: List[CategoryUpdateReq]
