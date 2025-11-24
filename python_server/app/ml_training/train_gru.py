@@ -19,8 +19,8 @@ category_encoder.fit(CategoryConfig.CATEGORIES)
 # ================================
 class TransactionDataset(Dataset):
     def __init__(self, df, category_encoder, char_to_idx, max_len=20):
-        self.price = df["price"].astype("float32").values
-        self.merchant = df["merchant"].astype(str).values
+        self.price = df["entryAmount"].astype("float32").values
+        self.merchant = df["placeOfUse"].astype(str).values
         self.memo = df["memo"].astype(str).values
         normalized = df["category"].apply(CategoryConfig.normalize)
         self.labels = category_encoder.transform(normalized)
@@ -124,7 +124,7 @@ def train_all_csv():
 
     # Build character dictionary
     chars = set()
-    for text in list(df["merchant"]) + list(df["memo"]):
+    for text in list(df["placeOfUse"]) + list(df["memo"]):
         for ch in str(text):
             chars.add(ch)
 

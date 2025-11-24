@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9b1b66-7238-4947-b68e-18540b643546" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_server/app/ml_training/user_data/correction_log.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/dto/category_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/dto/category_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_server/app/ml_training/data/combined_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_classifier.pth" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_classifier.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_encoders.pth" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_encoders.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/train_gru.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/train_gru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/user_data/correction_log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/user_data/correction_log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/user_finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/user_finetune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_server/app/router/user_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/router/user_router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_server/app/service/ai_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/service/ai_service.py" afterDir="false" />
     </list>
