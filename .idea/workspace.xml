@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9b1b66-7238-4947-b68e-18540b643546" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/python_server/app/ml_training/data/combined_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_server/app/dto/category_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/dto/category_dto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_classifier.pth" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_classifier.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_encoders.pth" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/model/char_gru_encoders.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/train_gru.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/train_gru.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/user_data/correction_log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/user_data/correction_log.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/ml_training/user_finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/ml_training/user_finetune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_server/app/router/user_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/router/user_router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_server/app/service/ai_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_server/app/service/ai_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/miniconda3/Lib/site-packages/fastapi/background.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -91,6 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_server/app/ml_training/inference.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -113,6 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_server/app/ml_training/train_gru.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -133,6 +137,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
@@ -146,6 +151,12 @@
       <workItem from="1763443386690" duration="1337000" />
       <workItem from="1763513424856" duration="12045000" />
       <workItem from="1763599688129" duration="2282000" />
+      <workItem from="1764032255823" duration="228000" />
+      <workItem from="1764036117921" duration="644000" />
+      <workItem from="1764116921440" duration="563000" />
+      <workItem from="1764204543208" duration="1786000" />
+      <workItem from="1764549024530" duration="275000" />
+      <workItem from="1764670030780" duration="1140000" />
     </task>
     <servers />
   </component>

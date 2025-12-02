@@ -1,12 +1,12 @@
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List,Optional
 
 class CategoryUpdateReq(BaseModel):
-    placeOfUse: str
-    entryAmount: int
-    memo: str
-    category: str
-    occurredAt: str
+    placeOfUse: Optional[str] = None
+    entryAmount: Optional[int] = None
+    memo: Optional[str] = None
+    category: Optional[str] = None
+    occurredAt: Optional[str] = None
 
 class TransActionBulkReq(BaseModel):
     transActions: List[CategoryUpdateReq]

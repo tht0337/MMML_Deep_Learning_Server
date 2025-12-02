@@ -69,18 +69,26 @@ async def classify_transaction(req: TransActionBulkReq):
 
     for idx, item in enumerate(req.transActions):
         try:
+            # 🔥 Null-safe normalization
+            merchant = item.placeOfUse or ""
+            memo = item.memo or ""
+            price = item.entryAmount or 0
+            occurred_at = item.occurredAt or ""
+            category = item.category or ""
+
+            # 🔥 여기서 normalized 값으로 predict 호출
             predicted = predict(
-                price=item.entryAmount,
-                merchant=item.placeOfUse,
-                memo=item.memo
+                price=price,
+                merchant=merchant,
+                memo=memo
             )
 
             results.append({
-                "placeOfUse": item.placeOfUse,
-                "entryAmount": item.entryAmount,
-                "memo": item.memo,
+                "placeOfUse": merchant,
+                "entryAmount": price,
+                "memo": memo,
                 "category": predicted,
-                "occurredAt": item.occurredAt
+                "occurredAt": occurred_at
             })
 
         except Exception as e:
@@ -102,6 +110,7 @@ async def classify_transaction(req: TransActionBulkReq):
         response["failedItems"] = failed_items
 
     return response
+
 
 @router.post("/fine-tune")
 async def classify_transaction(background_tasks: BackgroundTasks):
